@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/61090a6b2e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark px-2">
+        <a class="navbar-brand" href="#">BCA-wala</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i
+                            class="fa-solid fa-house-blank"></i>Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Select Course
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-white" href="#">BCA</a></li>
+                        <li><a class="dropdown-item text-white" href="#">BBA</a></li>
+                        <li><a class="dropdown-item text-white" href="#">BMS</a></li>
+                        <li>
+                            <hr class="dropdown-divider text-white">
+                        </li>
+                        <li><a class="dropdown-item text-white" href="#">Other</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="button" class="btn btn-danger mx-2">Login</button>
+                <button type="button" class="btn btn-danger">Signup</button>
+            </form>
+        </div>
+
+    </nav>
+
+
+    <!-- --------------------------------------------------slider---------------------------------------------- -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/slide 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bechlor In Computer Application</h5>
+                    <p>Get Best Books And Note Of BCA From BCA-wala.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/slide 2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bechlor In Bussiness Administrationn</h5>
+                    <p>Get Best Books And Note Of BBA From BCA-wala.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/slide3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bechlor In Management Studies </h5>
+                    <p>Get Best Books And Note Of BMS From BCA-wala.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- -------------------------------books---------------------------------------- -->
+    <div class="container-fluid bg-dark d-grid justify-content-center pt-3">
+        <!-- -------------------------------- row 1 ------------------------------------ -->
+
+
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning " style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/c cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/cpp cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/java-cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/Html-css-cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/Bootsrap-cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/javascript-cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/Angularjs-cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/Images/nodejs-cover.PNG" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./Images/python-cover.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3 border-warning" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./Images/python-cover.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="carrd-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button type="button" class="btn btn-success"><i
+                                        class="fa-solid fa-download px-2"></i>Download </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ----------------------------------------------------- FOOTER ------------------- --------------------- -->
+    <footer class="footer bg-dark pt-5 pt-md-6 pt-lg-7">
+        <div class="container pt-3 pt-md-0">
+            <div class="pb-md-4 text-center">
+                <h3 class="text-light fw-light mb-3">Still not convinced?</h3>
+                <h2 class="text-light mb-5">Add premium support and lifetime updates to this.</h2><a
+                    class="btn btn-primary" href="#" target="_blank" rel="noopener"><i
+                        class="ai-shopping-cart fs-lg me-2"></i>Get Primium</a>
+            </div>
+            <hr class="hr-light my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-7 pb-md-4 text-center">
+                    <h4 class="text-light mb-grid-gutter">Subscribe to BCA-wala</h4>
+                    <form class="subscription-form validate" action="/index.html" method="post"
+                        name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                        <div class="input-group flex-nowrap"><i
+                                class="ai-mail position-absolute top-50 start-0 translate-middle-y text-muted ms-3"></i>
+                            <input class="form-control rounded-start" type="email" name="EMAIL"
+                                placeholder="Your email">
+                            <button class="btn btn-primary">Subscribe*</button>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input class="subscription-form-antispam" type="text"
+                                name="b_c7103e2c981361a6639545bd5_29ca296126" tabindex="-1">
+                        </div>
+                        <div class="form-text text-light opacity-50">*Subscribe to our Bca-wala to receive early
+                            discount offers.</div>
+                        <div class="subscription-status"></div>
+                    </form>
+                </div>
+            </div>
+            <hr class="hr-light my-5">
+            <p class="fs-sm text-center mb-0 pb-5"><span class="text-light opacity-50 me-1">© All rights reserved. Made
+                    by</span><a class="nav-link-style nav-link-light" href="#" target="_blank" rel="noopener">Saptesh
+                    And
+                    Niraj</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
